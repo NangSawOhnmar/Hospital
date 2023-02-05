@@ -7,15 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		154F38A504EC38EF09BB09B6 /* Pods_HospitalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4170A737AB7AF539FCE29FA7 /* Pods_HospitalTests.framework */; };
+		7C78616358B150F5DE489166 /* Pods_Hospital_HospitalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10063AD5330B86E27C1316BA /* Pods_Hospital_HospitalUITests.framework */; };
+		801FC006CC94561A33AA778A /* Pods_Hospital.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40A23BB92C9D3F2C0D0FC55 /* Pods_Hospital.framework */; };
 		9E0F992D298E38E8001EC4F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F992C298E38E8001EC4F2 /* AppDelegate.swift */; };
-		9E0F992F298E38E8001EC4F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F992E298E38E8001EC4F2 /* SceneDelegate.swift */; };
-		9E0F9931298E38E8001EC4F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F9930298E38E8001EC4F2 /* ViewController.swift */; };
-		9E0F9934298E38E8001EC4F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0F9932298E38E8001EC4F2 /* Main.storyboard */; };
 		9E0F9936298E38EA001EC4F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E0F9935298E38EA001EC4F2 /* Assets.xcassets */; };
 		9E0F9939298E38EA001EC4F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0F9937298E38EA001EC4F2 /* LaunchScreen.storyboard */; };
 		9E0F9944298E38EA001EC4F2 /* HospitalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F9943298E38EA001EC4F2 /* HospitalTests.swift */; };
 		9E0F994E298E38EB001EC4F2 /* HospitalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F994D298E38EB001EC4F2 /* HospitalUITests.swift */; };
 		9E0F9950298E38EB001EC4F2 /* HospitalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F994F298E38EB001EC4F2 /* HospitalUITestsLaunchTests.swift */; };
+		9E0F9964298E40F5001EC4F2 /* NRCData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F9963298E40F5001EC4F2 /* NRCData.swift */; };
+		9E0F9967298E42E8001EC4F2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F9965298E42E8001EC4F2 /* LoginViewController.swift */; };
+		9E0F9968298E42E8001EC4F2 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E0F9966298E42E8001EC4F2 /* LoginViewController.xib */; };
+		9E0F996B298E4303001EC4F2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F9969298E4303001EC4F2 /* SignUpViewController.swift */; };
+		9E0F996C298E4303001EC4F2 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E0F996A298E4303001EC4F2 /* SignUpViewController.xib */; };
+		9E0F996F298E4389001EC4F2 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F996E298E4389001EC4F2 /* DataService.swift */; };
+		9E0F9973298E460A001EC4F2 /* LoginTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F9971298E460A001EC4F2 /* LoginTableViewCell.swift */; };
+		9E0F9974298E460A001EC4F2 /* LoginTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E0F9972298E460A001EC4F2 /* LoginTableViewCell.xib */; };
+		9E0F9976298EB5F9001EC4F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F9975298EB5F9001EC4F2 /* SceneDelegate.swift */; };
+		9E0F9979298EC06B001EC4F2 /* UIColor+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F9978298EC06B001EC4F2 /* UIColor+Settings.swift */; };
+		9E0F997B298EC1F0001EC4F2 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F997A298EC1F0001EC4F2 /* LoginButton.swift */; };
+		9E0F997D298EC981001EC4F2 /* UITextField+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F997C298EC981001EC4F2 /* UITextField+Settings.swift */; };
+		9E0F9980298ED98C001EC4F2 /* SignUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F997E298ED98C001EC4F2 /* SignUpTableViewCell.swift */; };
+		9E0F9981298ED98C001EC4F2 /* SignUpTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E0F997F298ED98C001EC4F2 /* SignUpTableViewCell.xib */; };
+		9E0F9983298EE00B001EC4F2 /* InputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F9982298EE00B001EC4F2 /* InputTextField.swift */; };
+		9E0F9985298EE38A001EC4F2 /* InputTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F9984298EE38A001EC4F2 /* InputTextFieldView.swift */; };
+		9E0F9987298EEB7D001EC4F2 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F9986298EEB7D001EC4F2 /* DateFormat.swift */; };
+		9EA19FDB298F3A2D00F91331 /* UIViewController+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA19FDA298F3A2D00F91331 /* UIViewController+Settings.swift */; };
+		9EA19FDD298F55D200F91331 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA19FDC298F55D200F91331 /* LoginRequest.swift */; };
+		9EA19FDF298F55E000F91331 /* SignupRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA19FDE298F55E000F91331 /* SignupRequest.swift */; };
+		9EA19FE1298F56B000F91331 /* SignupResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA19FE0298F56B000F91331 /* SignupResponse.swift */; };
+		9EA19FE3298F653200F91331 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA19FE2298F653200F91331 /* Client.swift */; };
+		9EA19FE5298F675100F91331 /* ApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA19FE4298F675100F91331 /* ApiEndpoint.swift */; };
+		9EA19FE7298F830700F91331 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA19FE6298F830700F91331 /* Router.swift */; };
+		9EA19FE9298F9B1400F91331 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA19FE8298F9B1400F91331 /* Request.swift */; };
+		9EA96C79299003FC0060F59C /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA96C78299003FC0060F59C /* LoginResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +62,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		028F6ECAA3A6F4E794C930C8 /* Pods-Hospital-HospitalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hospital-HospitalUITests.release.xcconfig"; path = "Target Support Files/Pods-Hospital-HospitalUITests/Pods-Hospital-HospitalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		10063AD5330B86E27C1316BA /* Pods_Hospital_HospitalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hospital_HospitalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4170A737AB7AF539FCE29FA7 /* Pods_HospitalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HospitalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE3DF94A5D3E89925E7329B /* Pods-Hospital.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hospital.debug.xcconfig"; path = "Target Support Files/Pods-Hospital/Pods-Hospital.debug.xcconfig"; sourceTree = "<group>"; };
+		95EE745794074886C6FCABBE /* Pods-Hospital-HospitalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hospital-HospitalUITests.debug.xcconfig"; path = "Target Support Files/Pods-Hospital-HospitalUITests/Pods-Hospital-HospitalUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E0F9929298E38E8001EC4F2 /* Hospital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hospital.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E0F992C298E38E8001EC4F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9E0F992E298E38E8001EC4F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9E0F9930298E38E8001EC4F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9E0F9933298E38E8001EC4F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E0F9935298E38EA001EC4F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E0F9938298E38EA001EC4F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E0F993A298E38EA001EC4F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +77,36 @@
 		9E0F9949298E38EB001EC4F2 /* HospitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HospitalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E0F994D298E38EB001EC4F2 /* HospitalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalUITests.swift; sourceTree = "<group>"; };
 		9E0F994F298E38EB001EC4F2 /* HospitalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9E0F9963298E40F5001EC4F2 /* NRCData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRCData.swift; sourceTree = "<group>"; };
+		9E0F9965298E42E8001EC4F2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9E0F9966298E42E8001EC4F2 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		9E0F9969298E4303001EC4F2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		9E0F996A298E4303001EC4F2 /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		9E0F996E298E4389001EC4F2 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		9E0F9971298E460A001EC4F2 /* LoginTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTableViewCell.swift; sourceTree = "<group>"; };
+		9E0F9972298E460A001EC4F2 /* LoginTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginTableViewCell.xib; sourceTree = "<group>"; };
+		9E0F9975298EB5F9001EC4F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = Hospital/SceneDelegate.swift; sourceTree = SOURCE_ROOT; };
+		9E0F9978298EC06B001EC4F2 /* UIColor+Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Settings.swift"; sourceTree = "<group>"; };
+		9E0F997A298EC1F0001EC4F2 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		9E0F997C298EC981001EC4F2 /* UITextField+Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Settings.swift"; sourceTree = "<group>"; };
+		9E0F997E298ED98C001EC4F2 /* SignUpTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTableViewCell.swift; sourceTree = "<group>"; };
+		9E0F997F298ED98C001EC4F2 /* SignUpTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpTableViewCell.xib; sourceTree = "<group>"; };
+		9E0F9982298EE00B001EC4F2 /* InputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextField.swift; sourceTree = "<group>"; };
+		9E0F9984298EE38A001EC4F2 /* InputTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextFieldView.swift; sourceTree = "<group>"; };
+		9E0F9986298EEB7D001EC4F2 /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
+		9EA19FDA298F3A2D00F91331 /* UIViewController+Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Settings.swift"; sourceTree = "<group>"; };
+		9EA19FDC298F55D200F91331 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		9EA19FDE298F55E000F91331 /* SignupRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupRequest.swift; sourceTree = "<group>"; };
+		9EA19FE0298F56B000F91331 /* SignupResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupResponse.swift; sourceTree = "<group>"; };
+		9EA19FE2298F653200F91331 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		9EA19FE4298F675100F91331 /* ApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoint.swift; sourceTree = "<group>"; };
+		9EA19FE6298F830700F91331 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		9EA19FE8298F9B1400F91331 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		9EA96C78299003FC0060F59C /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		A6803578E2F50010BC5944EA /* Pods-Hospital.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hospital.release.xcconfig"; path = "Target Support Files/Pods-Hospital/Pods-Hospital.release.xcconfig"; sourceTree = "<group>"; };
+		C5AFC47D494C6EDEC9AC4D5E /* Pods-HospitalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HospitalTests.debug.xcconfig"; path = "Target Support Files/Pods-HospitalTests/Pods-HospitalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D40A23BB92C9D3F2C0D0FC55 /* Pods_Hospital.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hospital.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D583BE8A16E57D4EBED87294 /* Pods-HospitalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HospitalTests.release.xcconfig"; path = "Target Support Files/Pods-HospitalTests/Pods-HospitalTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				801FC006CC94561A33AA778A /* Pods_Hospital.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				154F38A504EC38EF09BB09B6 /* Pods_HospitalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +130,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C78616358B150F5DE489166 /* Pods_Hospital_HospitalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C668313AFC544052DB79279 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DE3DF94A5D3E89925E7329B /* Pods-Hospital.debug.xcconfig */,
+				A6803578E2F50010BC5944EA /* Pods-Hospital.release.xcconfig */,
+				95EE745794074886C6FCABBE /* Pods-Hospital-HospitalUITests.debug.xcconfig */,
+				028F6ECAA3A6F4E794C930C8 /* Pods-Hospital-HospitalUITests.release.xcconfig */,
+				C5AFC47D494C6EDEC9AC4D5E /* Pods-HospitalTests.debug.xcconfig */,
+				D583BE8A16E57D4EBED87294 /* Pods-HospitalTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9E0F9920298E38E8001EC4F2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +157,8 @@
 				9E0F9942298E38EA001EC4F2 /* HospitalTests */,
 				9E0F994C298E38EB001EC4F2 /* HospitalUITests */,
 				9E0F992A298E38E8001EC4F2 /* Products */,
+				2C668313AFC544052DB79279 /* Pods */,
+				DEB8D3CA5284372C1B6456C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +175,12 @@
 		9E0F992B298E38E8001EC4F2 /* Hospital */ = {
 			isa = PBXGroup;
 			children = (
+				9E0F9962298E3F3C001EC4F2 /* Assets */,
+				9E0F995C298E3BDA001EC4F2 /* Model */,
+				9E0F9960298E3E27001EC4F2 /* View */,
+				9E0F9961298E3EAE001EC4F2 /* Controller */,
 				9E0F992C298E38E8001EC4F2 /* AppDelegate.swift */,
-				9E0F992E298E38E8001EC4F2 /* SceneDelegate.swift */,
-				9E0F9930298E38E8001EC4F2 /* ViewController.swift */,
-				9E0F9932298E38E8001EC4F2 /* Main.storyboard */,
-				9E0F9935298E38EA001EC4F2 /* Assets.xcassets */,
-				9E0F9937298E38EA001EC4F2 /* LaunchScreen.storyboard */,
+				9E0F9975298EB5F9001EC4F2 /* SceneDelegate.swift */,
 				9E0F993A298E38EA001EC4F2 /* Info.plist */,
 			);
 			path = Hospital;
@@ -127,6 +203,119 @@
 			path = HospitalUITests;
 			sourceTree = "<group>";
 		};
+		9E0F995C298E3BDA001EC4F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E0F995F298E3E14001EC4F2 /* Request */,
+				9E0F995E298E3DFD001EC4F2 /* Response */,
+				9E0F995D298E3C29001EC4F2 /* Data */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9E0F995D298E3C29001EC4F2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9E0F9963298E40F5001EC4F2 /* NRCData.swift */,
+				9E0F996E298E4389001EC4F2 /* DataService.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9E0F995E298E3DFD001EC4F2 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				9EA19FE0298F56B000F91331 /* SignupResponse.swift */,
+				9EA96C78299003FC0060F59C /* LoginResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		9E0F995F298E3E14001EC4F2 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				9EA19FDC298F55D200F91331 /* LoginRequest.swift */,
+				9EA19FDE298F55E000F91331 /* SignupRequest.swift */,
+				9EA19FE2298F653200F91331 /* Client.swift */,
+				9EA19FE4298F675100F91331 /* ApiEndpoint.swift */,
+				9EA19FE6298F830700F91331 /* Router.swift */,
+				9EA19FE8298F9B1400F91331 /* Request.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		9E0F9960298E3E27001EC4F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E0F9977298EC044001EC4F2 /* Extension */,
+				9E0F9970298E45E4001EC4F2 /* Cell */,
+				9E0F996D298E4323001EC4F2 /* Xib */,
+				9E0F997A298EC1F0001EC4F2 /* LoginButton.swift */,
+				9E0F9982298EE00B001EC4F2 /* InputTextField.swift */,
+				9E0F9984298EE38A001EC4F2 /* InputTextFieldView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E0F9961298E3EAE001EC4F2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9E0F9965298E42E8001EC4F2 /* LoginViewController.swift */,
+				9E0F9969298E4303001EC4F2 /* SignUpViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9E0F9962298E3F3C001EC4F2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9E0F9937298E38EA001EC4F2 /* LaunchScreen.storyboard */,
+				9E0F9935298E38EA001EC4F2 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9E0F996D298E4323001EC4F2 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				9E0F9966298E42E8001EC4F2 /* LoginViewController.xib */,
+				9E0F996A298E4303001EC4F2 /* SignUpViewController.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		9E0F9970298E45E4001EC4F2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9E0F9971298E460A001EC4F2 /* LoginTableViewCell.swift */,
+				9E0F9972298E460A001EC4F2 /* LoginTableViewCell.xib */,
+				9E0F997E298ED98C001EC4F2 /* SignUpTableViewCell.swift */,
+				9E0F997F298ED98C001EC4F2 /* SignUpTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9E0F9977298EC044001EC4F2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9E0F9978298EC06B001EC4F2 /* UIColor+Settings.swift */,
+				9E0F997C298EC981001EC4F2 /* UITextField+Settings.swift */,
+				9E0F9986298EEB7D001EC4F2 /* DateFormat.swift */,
+				9EA19FDA298F3A2D00F91331 /* UIViewController+Settings.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DEB8D3CA5284372C1B6456C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D40A23BB92C9D3F2C0D0FC55 /* Pods_Hospital.framework */,
+				10063AD5330B86E27C1316BA /* Pods_Hospital_HospitalUITests.framework */,
+				4170A737AB7AF539FCE29FA7 /* Pods_HospitalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +323,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E0F9953298E38EB001EC4F2 /* Build configuration list for PBXNativeTarget "Hospital" */;
 			buildPhases = (
+				AB5BD47555B202433DAE52B4 /* [CP] Check Pods Manifest.lock */,
 				9E0F9925298E38E8001EC4F2 /* Sources */,
 				9E0F9926298E38E8001EC4F2 /* Frameworks */,
 				9E0F9927298E38E8001EC4F2 /* Resources */,
+				77B5228E558FE73BD44D9BBB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +342,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E0F9956298E38EB001EC4F2 /* Build configuration list for PBXNativeTarget "HospitalTests" */;
 			buildPhases = (
+				4CAAB17653F41F8EBBF403CC /* [CP] Check Pods Manifest.lock */,
 				9E0F993B298E38EA001EC4F2 /* Sources */,
 				9E0F993C298E38EA001EC4F2 /* Frameworks */,
 				9E0F993D298E38EA001EC4F2 /* Resources */,
@@ -169,9 +361,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E0F9959298E38EB001EC4F2 /* Build configuration list for PBXNativeTarget "HospitalUITests" */;
 			buildPhases = (
+				362F596A6276DF29C7CBE1B8 /* [CP] Check Pods Manifest.lock */,
 				9E0F9945298E38EB001EC4F2 /* Sources */,
 				9E0F9946298E38EB001EC4F2 /* Frameworks */,
 				9E0F9947298E38EB001EC4F2 /* Resources */,
+				31DFB2868E75954FAAEFAE8F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +426,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E0F9939298E38EA001EC4F2 /* LaunchScreen.storyboard in Resources */,
+				9E0F9981298ED98C001EC4F2 /* SignUpTableViewCell.xib in Resources */,
 				9E0F9936298E38EA001EC4F2 /* Assets.xcassets in Resources */,
-				9E0F9934298E38E8001EC4F2 /* Main.storyboard in Resources */,
+				9E0F9974298E460A001EC4F2 /* LoginTableViewCell.xib in Resources */,
+				9E0F996C298E4303001EC4F2 /* SignUpViewController.xib in Resources */,
+				9E0F9968298E42E8001EC4F2 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +450,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31DFB2868E75954FAAEFAE8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hospital-HospitalUITests/Pods-Hospital-HospitalUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hospital-HospitalUITests/Pods-Hospital-HospitalUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hospital-HospitalUITests/Pods-Hospital-HospitalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		362F596A6276DF29C7CBE1B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hospital-HospitalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CAAB17653F41F8EBBF403CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HospitalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77B5228E558FE73BD44D9BBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hospital/Pods-Hospital-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hospital/Pods-Hospital-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hospital/Pods-Hospital-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB5BD47555B202433DAE52B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hospital-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9E0F9925298E38E8001EC4F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E0F9931298E38E8001EC4F2 /* ViewController.swift in Sources */,
+				9E0F996B298E4303001EC4F2 /* SignUpViewController.swift in Sources */,
+				9E0F997B298EC1F0001EC4F2 /* LoginButton.swift in Sources */,
+				9EA96C79299003FC0060F59C /* LoginResponse.swift in Sources */,
+				9EA19FDB298F3A2D00F91331 /* UIViewController+Settings.swift in Sources */,
+				9EA19FE3298F653200F91331 /* Client.swift in Sources */,
+				9E0F997D298EC981001EC4F2 /* UITextField+Settings.swift in Sources */,
+				9E0F9985298EE38A001EC4F2 /* InputTextFieldView.swift in Sources */,
+				9E0F996F298E4389001EC4F2 /* DataService.swift in Sources */,
+				9E0F9983298EE00B001EC4F2 /* InputTextField.swift in Sources */,
+				9E0F9987298EEB7D001EC4F2 /* DateFormat.swift in Sources */,
+				9E0F9979298EC06B001EC4F2 /* UIColor+Settings.swift in Sources */,
+				9EA19FE7298F830700F91331 /* Router.swift in Sources */,
+				9E0F9964298E40F5001EC4F2 /* NRCData.swift in Sources */,
 				9E0F992D298E38E8001EC4F2 /* AppDelegate.swift in Sources */,
-				9E0F992F298E38E8001EC4F2 /* SceneDelegate.swift in Sources */,
+				9E0F9980298ED98C001EC4F2 /* SignUpTableViewCell.swift in Sources */,
+				9EA19FE1298F56B000F91331 /* SignupResponse.swift in Sources */,
+				9EA19FE9298F9B1400F91331 /* Request.swift in Sources */,
+				9E0F9967298E42E8001EC4F2 /* LoginViewController.swift in Sources */,
+				9E0F9973298E460A001EC4F2 /* LoginTableViewCell.swift in Sources */,
+				9EA19FDF298F55E000F91331 /* SignupRequest.swift in Sources */,
+				9E0F9976298EB5F9001EC4F2 /* SceneDelegate.swift in Sources */,
+				9EA19FDD298F55D200F91331 /* LoginRequest.swift in Sources */,
+				9EA19FE5298F675100F91331 /* ApiEndpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +617,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9E0F9932298E38E8001EC4F2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9E0F9933298E38E8001EC4F2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9E0F9937298E38EA001EC4F2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +678,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +732,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,6 +744,7 @@
 		};
 		9E0F9954298E38EB001EC4F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DE3DF94A5D3E89925E7329B /* Pods-Hospital.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,10 +754,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Hospital/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +773,7 @@
 		};
 		9E0F9955298E38EB001EC4F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6803578E2F50010BC5944EA /* Pods-Hospital.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,10 +783,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Hospital/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +802,7 @@
 		};
 		9E0F9957298E38EB001EC4F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5AFC47D494C6EDEC9AC4D5E /* Pods-HospitalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +823,7 @@
 		};
 		9E0F9958298E38EB001EC4F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D583BE8A16E57D4EBED87294 /* Pods-HospitalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +844,7 @@
 		};
 		9E0F995A298E38EB001EC4F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95EE745794074886C6FCABBE /* Pods-Hospital-HospitalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +863,7 @@
 		};
 		9E0F995B298E38EB001EC4F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 028F6ECAA3A6F4E794C930C8 /* Pods-Hospital-HospitalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
